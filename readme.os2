@@ -1,0 +1,32 @@
+This is the OS/2 port of a lossless compressor named shorten.
+
+ To gather all informations about shorten, please refer to the original
+Unix docs, included in this package.
+
+ I tried to port shorten on OS/2 upon a request posted in the newsgroup
+comp.os.os2.multimedia, when  someone said  he didn't  find anywhere an
+OS/2 version, when MSDOS ports were available. So I sat down,  took the
+source and modified a little the make file, and after a few tests, here
+it is...
+
+Just to help you in making all from scratch:
+make sure you have the EMX 0.9d distribution, with gnumake (I used rel.
+3.76), awk and sed:  to make the man page you'll have to install nroff.
+Everything is available as usual on Hobbes, so bless the mantainer  :-)
+
+Making is simple as a snap: just type 'make shorten.exe' if you want to
+build shorten, 'make all' if you want to build also the man page.
+
+There is an option "test" to try the program with an included wave file;
+it requires wc (Word Count) from the GNU text utilities: I tried it,  it
+didn't work... Boh !!! :-(
+
+Now shorten is another program in the archive, thanks to (me and :-)
+the person who asked for it.
+
+Mentore Siesto
+Team OS/2 Italia
+mentore.siesto@studenti.ing.unipi.it
+
+Keeping the OS/2 way of life... :-)
+

@@ -6,7 +6,7 @@ MMOS2 - Audio data compressor codec.
 
 LICENSE
 ===============
-* N/A
+* Free for non-commercial use.
 
 COMPILE TOOLS
 ===============

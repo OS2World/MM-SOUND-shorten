@@ -18,4 +18,4 @@ AUTHORS
 
 LINKS
 ===============
- *
+ * http://etree.org/shnutils/shorten/
